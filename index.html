@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ahamed Tamzil, a Computer Science and Engineering student with a passion for full stack development.">
+    <meta name="keywords" content="Ahamed Tamzil, Portfolio, Full Stack Development, Computer Science, Nandha College of Technology">
+    <title>Tamzil's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="about" class="landing-page">
+        <div class="container">
+            <div class="profile-image">
+                <img src="profile.png" alt="Tamzil">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Hello! I am <strong>Ahamed Tamzil</strong>, a Computer Science and Engineering student at Nandha College of Technology. I am passionate about full stack development , with a strong academic background and hands-on experience in various projects.</p>
+                <div class="social-links">
+                    <a href="https://github.com/tamz2004" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ahamed-tamzil-287860280/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Ahamed_Tamzil_Resume.pdf" download class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <hr color="white">
+
+    <section class="education-page" id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering (B.E) in Computer Science and Engineering</h3>
+                        <p class="institution">Nandha College of Technology (Anna University aided)</p>
+                        <p class="details">CGPA: 8.3</p>
+                        <p class="year">2021 - 2025</p>
+                    </div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <p class="institution">Grace Matric Hr. Sec School</p>
+                        <p class="details">Percentage: 94.4%</p>
+                        <p class="year">2019 - 2021</p>
+                    </div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                        <p class="institution">Grace Matric Hr. Sec School</p>
+                        <p class="details">Percentage: 94.6%</p>
+                        <p class="year">2018 - 2019</p>
+                    </div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr color="white">
+    <section class="projects-page" id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Text OCR</h3>
+                        <a href="https://github.com/tamz2004/Text-OCR" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> GitHub Repo
+                        </a>
+                    </div>
+                    <div class="project-body">
+                        <p class="description">
+                            Text OCR is a simple desktop application built using Python and Tkinter. It allows users to extract text from image files or Excel files and save the extracted text in various formats such as text file, PDF, DOCX, or Excel.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Python, Tesseract, Tkinter</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Crypt Shield</h3>
+                        <a href="https://github.com/tamz2004/Crypt-Shield" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> GitHub Repo
+                        </a>
+                    </div>
+                    <div class="project-body">
+                        <p class="description">
+                            Crypt Shield is a Python application for securely encrypting and decrypting images using a combination of encryption techniques and chaos theory-based shuffling. This project aims to provide a secure method for transmitting images while adding an extra layer of protection through chaotic encryption.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Python, Scipy, Tkinter, Numpy</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Weather App</h3>
+                        <a href="https://github.com/tamz2004/Weather-App" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> GitHub Repo
+                        </a>
+                    </div>
+                    <div class="project-body">
+                        <p class="description">
+                            Weather App built using HTML CSS and JS. It includes open weather API to fetch weather.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, API</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>>
+
+    <hr color="white">
+    <section id="contact" class="contact-page">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto: ahamedtamzil95@gmail.com" 
+            enctype="multipart/form-data" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+<hr color="white">
+    <footer>
+        <div class="footer-container">
+            <p>&copy; <span id="year"></span> Ahamed Tamzil. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/tamz2004" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ahamed-tamzil-287860280/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
